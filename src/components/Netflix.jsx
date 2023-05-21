@@ -56,7 +56,7 @@ export const Netflix = () => {
   
 
     }, [nowPlayMovies,popularMovies,topRatedMovies,upcomingMovies]);
-    console.log(nowPlayMovies);
+    
 
   return (
     <>

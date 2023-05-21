@@ -4,7 +4,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 
 const RatingCircle = ({ rating }) => {
-    console.log(rating)
+   
     return (
         
             <CircularProgressbar className="rating-circle"

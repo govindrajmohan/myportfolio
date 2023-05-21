@@ -25,8 +25,7 @@ export const MoviesCards = (props) => {
     `movie/${props.index}`
   );
  
-  console.log(credit?.genres);
-
+  
   return (
   
     <Card
