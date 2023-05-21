@@ -1,0 +1,321 @@
+.hero-sec{
+    height: 65vh;
+    background-image: linear-gradient(
+        rgba(150, 1, 6, 0.808) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),linear-gradient(120deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%),
+        url("https://res.cloudinary.com/dzp1h3ybu/image/upload/v1684684270/bg_desjt9.jpg");
+      background-size: cover;
+      /* background-position: top; */
+      display: flex!important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.netflix-container{
+background-color: #00081D;
+padding: 50px 20px;
+}
+
+.hero-sec h1 {
+    color: whitesmoke;
+    font-size: 4.2rem;
+    font-weight: 900;
+}
+.hero-sec h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: whitesmoke;
+    margin: 20px 0px;
+
+}
+.hero-sec p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: whitesmoke;
+
+}
+.movie-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: whitesmoke;
+    margin: 20px 0px;
+}
+.react-multiple-carousel__arrow {
+
+    background: rgb(253 0 0);
+}
+
+.css-4bjh4i:hover{
+    background-color: rgb(207, 2, 2)!important;
+
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(1% + 1px);
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px);
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline,
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    border-color: rgba(122, 122, 122, 0.411)!important;
+    color: rgba(27, 27, 27, 0.719)!important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    padding: 15.9px 30px!important;
+    margin-left: 10px !important;
+    background-color: rgb(207, 2, 2) !important;
+    color: whitesmoke !important;
+}
+.movie-cards:hover{
+    cursor: pointer;
+}
+
+.rating-circle{
+            width: 40px;
+            text-align: left;
+            flex-shrink: 0;
+            display: inline;
+            margin-right: 10px;
+            margin-bottom: 10px;
+}
+
+.CircularProgressbar .CircularProgressbar-text{
+    fill: white;
+}
+
+
+.css-r40f8v-MuiTypography-root{
+    font-weight: 900;
+    color: white;
+}
+.movie-cards{
+    background-color: #b50a0a;
+
+}
+
+.cards-genre{
+    font-size: 12px;
+    font-style:italic;
+     background-color:whitesmoke;
+      color:#b50a0a;
+      padding:2px 5px;
+      margin:5px;
+      border-radius: 3px;
+      box-shadow: 3px 5px 5px rgb(76 76 76 / 19%), 0 0px 5px rgba(0,0,0,0.25);
+}
+
+.hero-sec .email-input{
+    padding: 9px 20px;
+    outline: none;
+    border: none;
+    color: #b50a0a;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.card-content .card-typography-title{
+    font-size: 1.5rem;
+    /* line-height: 1pt!important; */
+    margin-top: 5px;
+    color: whitesmoke;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.movie-cards{
+    height: 500px;
+}
+.card-content .card-typography-p span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.css-ifrlh5-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #b50a0ad0!important;
+}
+@media only screen and (max-width:576px){
+
+    .movie-title{
+        font-size: 1.2rem!important;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .hero-sec{
+        background-size: contain;
+        height: 45vh!important;
+        padding: 10 0pxpx;
+
+    }
+    .movie-cards{
+        height: 220px!important;
+        margin: 5px!important;
+    }
+    .hero-sec h1{
+        font-size: 2rem!important;
+    }
+    .hero-sec h4{
+        font-size: 0.8rem;
+    }
+    .hero-sec p{
+        font-size: .7rem;
+    }
+    .hero-sec .email-input{
+        padding: 3px 8px;
+        font-size: .7rem;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    .netflix-container{
+        padding: 5px;
+    }
+    .netflix-container .movie-title{
+        font-size: .8rem;
+    }
+    
+    /* .lazy-load-image-background.blur.lazy-load-image-loaded > img{
+        height: 100px!important;
+    } */
+    .netflix-container p{
+        font-size: 0.5rem;
+        line-height: 0;
+    }
+    .card-content{
+        padding: 5px!important;
+    }
+    .rating-circle {
+        width: 20px!important;
+        text-align: left;
+        flex-shrink: 0;
+        display: block;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .card-content .card-typography-title{
+        text-shadow: 1px .5px .5px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
+        font-size: .5rem!important;
+        /* line-height: 1pt!important; */
+        margin-top: 5px;
+        color: whitesmoke;
+    }
+    .card-content .card-typography-p{
+        font-size: 0.3rem!important;
+        /* line-height: 1pt!important; */
+        /* margin-top: 5px; */
+        color: whitesmoke;
+        display: block;
+    }
+    .cards-genre{
+        font-size: .25rem!important;
+        display: inline;
+        padding: .5px 1px;
+        margin: 2px;
+        line-height:8pt!important;
+        border-radius: 1px;
+    }
+    .card-content,.css-46bh2p-MuiCardContent-root {
+        padding: 7px 5px!important;
+    }
+    .card-img{
+        height: 100px!important;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .hero-sec{
+        
+        background-size: cover;
+        height: 70vh;
+
+    }
+    .hero-sec h1{
+        font-size: 3rem;
+    }
+    .hero-sec h4 {
+        font-size: 1.5rem;
+    }
+    .movie-cards{
+        height: 450px;
+        margin: 8px!important;
+    }
+    
+    .hero-sec .email-input{
+        padding: 3px 8px;
+        font-size: 1rem;
+    }
+    .netflix-container{
+        padding: 30px 20px;
+    }
+    .netflix-container .movie-title{
+        font-size: 1.5rem;
+    }
+    /* .lazy-load-image-background.blur.lazy-load-image-loaded > img{
+        height: 220px;
+    } */
+    
+    .rating-circle {
+        width: 30px;
+        text-align: left;
+        flex-shrink: 0;
+        display: block;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .card-content .card-typography-title{
+        text-shadow: 1px .5px .5px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
+        font-size: 0.9rem;
+        /* line-height: 1pt!important; */
+        margin-top: 5px;
+        color: whitesmoke;
+    }
+    .card-content .card-typography-p{
+        font-size: 0.7rem;
+        /* line-height: 1pt!important; */
+        /* margin-top: 5px; */
+        color: whitesmoke;
+        display: block;
+    }
+    .cards-genre{
+        font-size: .5rem;
+        display: inline;
+        padding: 2px 5px;
+        margin: 2px;
+        line-height:15pt;
+        border-radius: 3px;
+    }
+    
+}
+@media only screen and (min-width:993px){   
+    .hero-sec{
+        height: 75vh;
+
+    }
+    .card-content .card-typography-title {
+        font-size: 1.2rem;
+    }
+    .card-content .card-typography-p{
+        font-size: 0.8rem;
+        color: whitesmoke;
+    }
+    .card-img{
+        height: 280px!important;
+    }
+    .cards-genre{
+        font-size: .6rem;
+        display: inline;
+        padding: 2px 5px;
+        margin: 2px;
+        line-height:15pt;
+        border-radius: 3px;
+    }
+    .movie-cards{
+        height: 480px;
+        margin: 10px!important;
+        overflow: hidden;
+    }
+}

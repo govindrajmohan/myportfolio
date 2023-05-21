@@ -1,0 +1,28 @@
+.todo-btn{
+    background-color: #001a5a!important;
+}
+.todo-btn:hover{
+    background-color: rgb(17, 17, 17)!important;
+}
+.todo-list{
+    background-color: #001a5a!important;
+    color: #fff!important;
+}
+.css-4myrw8-MuiListItem-root{
+    padding: 5px 10!important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    color: #fff!important;
+}
+.todo-container h1{
+    color: #001a5a;
+    font-weight: 800;
+}
+.toggle-icon{
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    /* color: rgba(0,0,0,.55); */
+    border-color: rgb(249 249 249 / 94%);
+}
