@@ -11,7 +11,6 @@ import "react-loading-skeleton/dist/skeleton.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 const MovieDetails = () => {
-    const [name,setName] = React.useState("");
   const { mediaType, id } = useParams();
   const { data, loading } = useFetch(
     `${mediaType}/${id}`
@@ -25,9 +24,6 @@ const MovieDetails = () => {
 
 
 
-  const writer = credit?.crew.filter(
-    (f) => f.job === "Screenplay" || f.job === "Story" || f.job === "Writer"
-);
  
   return (
     <div className="container-fluid movie-details">
@@ -59,18 +55,7 @@ const MovieDetails = () => {
             <h2>Overview</h2>
             <p>{data?.overview || <SkeletonTheme baseColor="#202020"  count={5} highlightColor="#444"/>}</p>
             <p className="movie-status">Status : <span>{data?.status}</span> |  Release Date: <span>{dayjs(data?.release_date).format("MMM D, YYYY")}</span> | Runtime : <span> {data?.runtime}m</span> </p>
-            <p className="movie-status">Director : <span>{director?.map((val,index)=>{return(val.name)})}</span></p>
-           
-           
-            {/* <p className="movie-status">Writter : {writer?.map((val,index)=>{return(
-                writer.length > 0 ? <span key={index}> {val.name}  | 
-                </span> :
-                <span key={index}>{val.name}
-                </span> 
- 
-            )})}</p> */}
-
-          
+            <p className="movie-status">Director : <span>{director?.map((val,index)=>{return(val.name)})}</span></p>          
           </div>
         </div>
       </div>
